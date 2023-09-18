@@ -1,6 +1,7 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class ArrayListExample {
@@ -19,7 +20,8 @@ public class ArrayListExample {
         System.out.println(ulam.add("Egg"));
         System.out.println(ulam.remove("Adobo"));
         System.out.println(ulam);
-
+        String[] animes = {"one piece","jujutsu kaizen","naruto","zenki","Baki","doraemon","zachbell","Bleach"};
+        List<String> ls = Arrays.asList(animes);
 
 
     }
