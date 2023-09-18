@@ -1,14 +1,14 @@
 package org.example;
-
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 import java.util.*;
 
 
 public class ArrayListExample {
+    static int addAllNumbers(int... t){
+        int sum = 0;
+//        for(int y:t)
+//            sum +=y;
+        return sum = Arrays.stream(t).sum();
+    }
     public static void main(String[] args) {
         List<String> ulam = new ArrayList<>();
         ulam.add("Adobo");
@@ -27,8 +27,8 @@ public class ArrayListExample {
 
         String[] animes = {"one piece","jujutsu kaizen","naruto","zenki","Baki","doraemon","zachbell","Bleach"};
         List<String> ls = Arrays.asList(animes);
-
-
+//int[] v ={21,33,44,556};
+        List<Integer> v = Arrays.asList(21,33,44,556);
 
         Double num1 = Double.valueOf(56.5);
         System.out.println(num1.intValue());
@@ -47,6 +47,9 @@ public class ArrayListExample {
         Scanner input1 = new Scanner(System.in);
         String message = ((input1.nextInt()%2) == 0) ? "Even" : "Odd";
         System.out.println(message);
+        System.out.println("the sum is "+addAllNumbers(1,45,5,54,2,5,4,5,65,5,6,6,5,5));
 
     }
 }
+
+
