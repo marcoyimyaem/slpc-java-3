@@ -1,7 +1,11 @@
+import methods.encapsulation.Method1;
+
 import java.util.Arrays;
 
 public class ArraysExample {
     public static void main(String[] args) {
+        Method1 m1 = new Method1();
+//        m1.methodSample4();
         int [] ids = {5,1,4,2,4},type = {1,2,3,4};
         int ids2 [] = {1,2,3,4}, type2 = 1;
         String[] animes = {"one piece","jujutsu kaizen","naruto","zenki","Baki","doraemon","zachbell","Bleach"};

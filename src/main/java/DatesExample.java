@@ -24,5 +24,7 @@ public class DatesExample {
         LocalDateTime ldt2 = LocalDateTime.of(ld2,lt2);
         System.out.println(ldt);
         System.out.println(ldt.minusDays(100));
+        System.out.println("date after minus days "+ldt);
+
     }
 }
