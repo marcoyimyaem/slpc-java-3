@@ -48,6 +48,9 @@ public class ArrayListExample {
         String message = ((input1.nextInt()%2) == 0) ? "Even" : "Odd";
         System.out.println(message);
         System.out.println("the sum is "+addAllNumbers(1,45,5,54,2,5,4,5,65,5,6,6,5,5));
+        Integer[] p = {89,34,2,1,4,76};
+//        Arrays.stream(p).max();
+
 
     }
 }
